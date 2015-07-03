@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html ng-app="portfolio">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script src="js/angular.min.js"></script>
+	<script src="js/portfolio.js"></script>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Pacifico|Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+	<title></title>
+</head>
+<body ng-controller="mainController">
+	<div class="row">
+		<div class="col-xs-12 avatar">
+			<img src="img/avatar.png"/>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12" ng-model="hi">
+			<h1>{{hi}}</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-3"></div>
+		<div class="col-xs-6">
+			<p>{{intro}}</p>
+		</div>
+		<div class="col-xs-3"></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 language">
+			<div class="languageChangerText">Read in another language</div>
+			<div class="flags">
+				<ul>
+					<li><img src="img/Sweden.png" ng-click="changeLanguage('Swedish')"/></li>
+					<li><img src="img/Norway.png" ng-click="changeLanguage('Norwegian')" /></li>
+					<li><img src="img/UnitedKingdom.png" ng-click="changeLanguage('English')" /></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+/*
+Stylesheet for the project "Portfolio"
+
+Examples to remember:
+font-family: 'Pacifico', cursive;
+font-family: 'Open Sans', sans-serif;;
+*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(../img/water.jpg);
+	background-repeat: repeat;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 72px;
+	text-align: center;
+}
+
+.avatar {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.avatar img {
+	width: 167px;
+	height: 228px;
+}
+
+p {
+	padding-top: 10px;
+}
+
+.language {
+	position: fixed;
+	bottom: 10px;
+}
+
+.languageChangerText {
+	float: right;
+	width: 100%;
+	margin-right: 10px;
+	text-align: right;
+}
+
+.flags {
+	float: right;
+	text-align: left;
+	position: relative;
+}
+
+.flags ul {
+	list-style: none;
+	position: relative;
+	margin-right: 10px;
+}
+
+.flags li {
+	float: left; 
+	position: relative;
+
+}
+
+.flags img {
+	margin-left: 10px;
+}
